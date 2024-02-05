@@ -16,19 +16,28 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
+      <h1 class="project-name" align="center">Greetings, I'm Hudda Najeeb Luni</h1>
+      <h2 class="project-tagline" align="center">Research Economist working in multiple verticals including Urban development, Inequality, public policy, Macroeconomy, econometrics, remote sensing data.</h2>
+       <!-- Buttons for navigation -->
+      <div align="center">
+        <a href="about_me_url" class="btn">About Me</a>
+        <a href="projects_url" class="btn">Projects</a>
+        <a href="publications_url" class="btn">Publications</a>
+        <a href="blogs_url" class="btn">Blogs</a>
+      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
-      {{ content }}
+    <h3>About Me</h3>
+      <ul>
+        <li>🔭 I’m currently working on <strong>Remote sensing data</strong></li>
+        <li>🌱 I’m currently learning <strong>Econometrics using Python and R</strong></li>
+        <li>👯 I’m looking to collaborate on <strong>Roads-network analysis applications for economics</strong></li>
+        <li>🤝 I’m looking for help with <strong>Roads-network analysis using arcGIS data</strong></li>
+        <li>💬 Ask me about <strong>Economics, Econometrics, marcoeconomics, urban economics, Night time lights, arcGIS, QGIS, Stata, Tableau</strong></li>
+        <li>📫 How to reach me <strong><a href="mailto:huddaluni@hotmail.com">huddaluni@hotmail.com</a></strong></li>
+      </ul>
+    </main>
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
